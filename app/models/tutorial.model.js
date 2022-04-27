@@ -40,7 +40,7 @@ Tutorial.findById = (id, result) => {
 };
 
 Tutorial.getAll = (title, result) => {
-  let query = "SELECT * FROM users";
+  let query = "SELECT * FROM courses";
 
   if (title) {
     query += ` WHERE title LIKE '%${title}%'`;
